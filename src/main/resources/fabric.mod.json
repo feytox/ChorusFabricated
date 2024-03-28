@@ -3,13 +3,12 @@
 	"id": "chorusfabricated",
 	"version": "${version}",
 	"name": "ChorusFabricated",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod is a rewrite of a custom Bukkit plugin.",
 	"authors": [
-		"Me!"
+		"Feytox"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/feytox/ChorusFabricated"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/chorusfabricated/icon.png",
@@ -23,12 +22,9 @@
 		"chorusfabricated.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.7",
+		"fabricloader": "*",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
